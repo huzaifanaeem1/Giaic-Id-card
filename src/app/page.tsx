@@ -10,7 +10,7 @@ export default function Home() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="relative w-full h-full max-w-[350px]  max-h-[400px]">
               <Image
-                src="/images/kamran-tessori.jpg"
+                src="/images/kamran-tessori.png"
                 alt="background image"
                 width={400}
                 height={300}
@@ -18,9 +18,6 @@ export default function Home() {
                 className="opacity-20" />
             </div>
           </div>
-
-
-
           {/* left section */}
           <div className="w-2/3 pr-4 pt-16 relative z-10">
             {/* logo */}
@@ -29,7 +26,6 @@ export default function Home() {
               alt="Logo"
               className="absolute top-[-24px] left-0 w-18 h-20 z-10"
             />
-
             <p className="mb-2">
               <span className="text-sky-500"><strong>Name: </strong></span>
               <span className="text-black font-bold">Huzaifa Naeem</span>
@@ -62,8 +58,6 @@ export default function Home() {
               <span className="text-sky-500"><strong>Batch: </strong></span>
               <span className="text-black font-bold">1</span>
             </p>
-
-
             {/* Button Section */}
             <div className="flex-col felx mt-4">
               <button className="w-full p-1 rounded-lg border border-gray-300 relative bg-blue-900 text-white items-center justify-center flex">
@@ -84,12 +78,6 @@ export default function Home() {
               className="rounded-lg mb-6 w-full border border-sky-500"/>
             <p className="text-sky-500 font-bold border-t-2 border-t-slate-400 pt-2 mt-10 text-2xl">Authorized Signature</p>
           </div>
-
-
-
-
-
-
         </div>
       </div>
     </div>
